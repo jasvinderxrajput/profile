@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap');
+
+/* <================= CSS Reset =================> */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    line-height: 1.2;
+    background-color: rgb(246, 246, 232);
+    max-height: max-content;
+}
+
+
+
+
+
+.container{
+  
+  position: relative;
+}
+  
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 8%;
+  height: auto;
+  max-width: 14vh;
+
+  border-radius: 50%;
+  border-color: aqua;
+  border-style: dashed;
+}
+
+.profile-name {
+  text-align: center;
+  -webkit-text-fill-color: aqua;
+  padding: 13px;
+  font-size: 30px;
+}
+
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+  border: 0.1px solid aquamarine;
+  border-width: 1px;
+  padding: 2.5px;
+
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 30px;
+
+  font-size: 17px;
+  overflow: hidden;
+  
+}
+.links i {
+  height: 2.7rem;
+  width: 2.7rem;
+  line-height: 2.9rem;
+  font-size: 1.4rem;
+  text-align: center;
+  background: #242b2b;
+  color: #20a5d6;
+  border-radius: 50%;
+  margin-left: 5rem;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+  text-decoration: none;
+  background-color: rgb(47, 141, 81);
+  color: black;
+  transition: color 1s;
+}
+
+a:hover {
+  color: black;
+  background-color: rgb(204, 215, 216);
+}
+
+
+.linktree {
+
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute; /* Reposition logo from the natural layout */
+  
+  top: 50px;
+  width: max-content;
+  height: max-content;
+  z-index: 9;
+
+
+} 
+
+
+
+
+.container {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.container h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+span {
+  color: aqua;
+  font-weight: 300;
+}
